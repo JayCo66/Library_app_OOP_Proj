@@ -7,8 +7,9 @@ public class Library {
 	private List<User> users;
 
 	
-	public static void main(String[] args) {
+	/*public static void main(String[] args) {
 		//new Library();
 		System.out.println("testing");
-	}
+	}*/
 }
+
