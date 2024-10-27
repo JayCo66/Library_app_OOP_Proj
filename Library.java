@@ -1,15 +1,14 @@
 package Library_app_OOP_Proj;
 
-import java.util.List;
-
 public class Library {
-	private List<Room> rooms;
-	private List<User> users;
 
-	
-	/*public static void main(String[] args) {
-		//new Library();
-		System.out.println("testing");
-	}*/
+	public static void main(String[] args) {
+		User kuyPoos = new Lecterer("B1234","inwza007");
+		Room S2206 = new Room("S2206");
+		
+		new Booking(kuyPoos,S2206,0,2);
+		new Booking(kuyPoos,S2206,2,1);
+
+	}
+
 }
-

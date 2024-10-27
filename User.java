@@ -1,38 +1,58 @@
 package Library_app_OOP_Proj;
 
 public class User {
-	private String ID;
-	private String password;
-	private String roomBooked;
-	private double bookedHrs;
+	protected int maxDay;
+	protected int maxHrs;
+	protected int bookedHrs;
+	protected String username;
+	protected String password;
 	
-	public User(String ID, String password) {
-		this.ID = ID;
+	public User(String username, String password) {
+		this.username = username;
 		this.password = password;
-		this.roomBooked = null;
-		this.bookedHrs = 0;
+		bookedHrs = 0;
 	}
 	
-	public String getID() {
-		return ID;
+	public int getMaxDay() {
+		return maxDay;
 	}
-	public void setID(String ID) {
-		this.ID = ID;
+	public void setMaxDay(int maxDay) {
+		this.maxDay = maxDay;
+	}
+	public int getMaxHrs() {
+		return maxHrs;
+	}
+	public void setMaxHrs(int maxHrs) {
+		this.maxHrs = maxHrs;
 	}
 	public String getPassword() {
 		return password;
 	}
 	public void setPassword(String password) {
-		password = password;
+		this.password = password;
+	}
+	public String getUserName() {
+		return username;
+	}
+	public void setUserName(String username) {
+		this.username = username;
+	}
+
+	public int getBookedHrs() {
+		return bookedHrs;
+	}
+
+	public void setBookedHrs(int duration) {
+		this.bookedHrs += duration;
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
 	}
 	
-	public booking(Room room,int startTime, int ) {
-		
-	}
-	
-	public returnRoom() {
-		this.roomBooked = null;
-		this.bookedHrs = 0;
-	}
 
 }

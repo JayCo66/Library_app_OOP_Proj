@@ -1,13 +1,12 @@
 package Library_app_OOP_Proj;
 
-public class Student extends User{
+public class General extends User{
 	final  private int maxDay = 1;
 	final private int maxHrs = 3;
-
-	public Student(String username, String password) {
+	
+	public General(String username, String password) {
 		super(username, password);
 		super.maxDay = this.maxDay;
 		super.maxHrs = this.maxHrs;
 	}
-	
 }
