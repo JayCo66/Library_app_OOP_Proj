@@ -22,7 +22,7 @@ public class Booking {
 				}
 				user.setBookedHrs(duration);
 				bookingList.add(this);
-				System.out.println("Booking success");
+				System.out.println("Booking success?");
 			}else {
 				System.out.println("Room not available");
 			}
