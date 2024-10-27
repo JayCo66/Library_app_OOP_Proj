@@ -1,4 +1,4 @@
-package Library_app_OOP_Proj;
+package Library_Proj;
 
 public class General extends User{
 	final  private int maxDay = 1;

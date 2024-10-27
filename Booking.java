@@ -1,4 +1,4 @@
-package Library_app_OOP_Proj;
+package Library_Proj;
 import java.util.ArrayList;
 
 public class Booking {
